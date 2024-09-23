@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Birthday, My Love!</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    
+    <div class="container">
+        <h1>Happy Birthday,Saumya!</h1>
+        <p>To the most beautiful and amazing person in my life,</p>
+        <p>I wish you all the happiness in the world.</p>
+        <p class="love"> I love you!</p>
+        <img src="th2-removebg-preview.png" alt="Birthday Cake" class="cake-image">
+        <button onclick="playMusic()">Click Here</button>
+    </div>
+    <audio id="birthdaySong" src="happy-birthday-jazz-171120.mp3"></audio>
+
+    <script>
+        function playMusic() {
+            var audio = document.getElementById("birthdaySong");
+            audio.play();
+        }
+    </script>
+</body>
+</html>
